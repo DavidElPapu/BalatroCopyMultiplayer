@@ -13,7 +13,6 @@ public class EconomyManager : NetworkBehaviour
 
     private List<Player> players = new List<Player>();
 
-    #region Unity Callbacks
     protected override void OnValidate()
     {
         base.OnValidate();
@@ -33,6 +32,4 @@ public class EconomyManager : NetworkBehaviour
     {
 
     }
-
-    #endregion
 }
